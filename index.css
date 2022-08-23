@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+/*body {
+    background: linear-gradient(70deg,#330867 0%,#30cfd0 100%);
+  }*/
+  body{
+    background-image: url('images/background_gift.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.container {
+    width: 60%;
+    height: 0;
+    margin: 0% auto;
+    
+}
+
+.card {
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    width: 800px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(218, 215, 197, 0.644);
+}
+
+
+
+.card-img {
+    height: auto;
+    width: 430px;
+}
+
+.card-description {
+    margin: 40px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card h1 {
+    font-family: 'DynaPuff', cursive;
+    color: rgba(14, 15, 15, 0.76);
+}
+
+.sub-description {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+span {
+    font-family: 'DynaPuff', cursive;
+    color: brown;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+.color-rest {
+   color: #FF0000;	
+}
+
+.contact-me {
+    margin-top: 20px;
+}
+
+.social-networks {
+    margin-top: 20px;
+    display: flex;
+}
+
+.social-networks div {
+    font-family: 'DynaPuff', cursive;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+
+.social-networks div:hover {
+    cursor: pointer;
+}
